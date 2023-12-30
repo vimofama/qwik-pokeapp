@@ -55,8 +55,8 @@ export default component$(() => {
   });
 
   const limitarA60Palabras = (texto: string) => {
-    let palabras = texto.split(' ');
-    let textoLimitado = palabras.slice(0, 60).join(' ');
+    const palabras = texto.split(' ');
+    const textoLimitado = palabras.slice(0, 60).join(' ');
     return textoLimitado;
   };
 

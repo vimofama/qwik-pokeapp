@@ -1,4 +1,4 @@
-import { ResDetailPokemon } from "~/interfaces";
+import { type ResDetailPokemon } from "~/interfaces";
 
 export const getDetailByPokemonId = async (id: number | string) => {
     const response = await fetch(
