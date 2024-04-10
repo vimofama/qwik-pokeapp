@@ -11,8 +11,8 @@ export default component$(() => {
             <span class="text-7xl"> {counter.value} </span>
 
             <div class="mt-2">
-                <button onClick$={ increase } class="btn btn-primary mr-2">-1</button>
-                <button onClick$={ decrease } class="btn btn-primary">+1</button>
+                <button onClick$={ decrease } class="btn btn-primary mr-2">-1</button>
+                <button onClick$={ increase } class="btn btn-primary">+1</button>
             </div>
         </>
     )
